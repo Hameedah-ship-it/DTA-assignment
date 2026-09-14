@@ -48,3 +48,37 @@ body{
     border-radius: 5px;
     text-decoration: none;
 }
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  80px 60px;
+    gap: 80px;
+}
+.hero-left img{
+    width: 500px;
+    /* background: #2e7d32;
+    border-radius: 12px; */
+    padding: 20px;
+    min-width: 100%;
+}
+.tag{
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.hero-right h1{
+    font-size: 42px;
+    color:#222;
+    margin: 15px 0;
+    font-weight: 700;
+
+}
+.hero-right p{
+    color: #555;
+    line-height: 1.7;
+    font-size: 16px;
+}
