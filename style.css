@@ -142,3 +142,78 @@ body{
     width: 100%;
     border-radius: 10px;
 }
+.skills {
+    padding: 80px 8%;
+    background-color: #fffafa;
+}
+
+.skills-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills-heading span {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #f0f5f5;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.skills-heading h2 {
+    font-size: 42px;
+    margin: 20px 0;
+    color: #555;
+}
+
+.skills-heading p {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.7;
+    color: #777;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.skill-card {
+    position: relative;
+    overflow: hidden;
+    padding: 35px 30px;
+    min-height: 230px;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+}
+
+/* .skill-card::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    top: -25px;
+    right: -25px;
+    background-color: #eef5f5;
+    transition: transform 0.6s ease;
+} */
+
+.skill-card .icon {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.skill-card h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.skill-card p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #777;
+}
