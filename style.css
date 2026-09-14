@@ -51,34 +51,54 @@ body{
 .hero{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding:  80px 60px;
-    gap: 80px;
+    /* justify-content: space-between; */
+    padding:  60px 40px;
+    gap: 40px;
+    flex-wrap: nowrap;
+    
 }
 .hero-left img{
-    width: 500px;
+    width: 650px;
     /* background: #2e7d32;
     border-radius: 12px; */
     padding: 20px;
-    min-width: 100%;
+    /* min-width: 100%; */
 }
 .tag{
     background: #e8f5e9;
     color: #2e7d32;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 30px;
+    /* font-weight: 600; */
+    /* display: inline-flex;
+    align-items: center;
+    /* gap: 6px; */
+    /* margin-bottom: 15px; */
+    /* margin-right: 0; */
+    width: 400px; */
+
+    }
+.hero-right{
+    flex: 1.2;
+    max-width: 560px;
 }
+
 .hero-right h1{
-    font-size: 42px;
-    color:#222;
+    font-size: 60px;
+    color:#333333;
     margin: 15px 0;
     font-weight: 700;
+    line-height: 1.2;
 
 }
 .hero-right p{
-    color: #555;
-    line-height: 1.7;
-    font-size: 16px;
+    color:#7c7c7c ;
+    line-height: 28px;
+    font-size: 18px;
+    text-align: justify;
+    /* word-spacing: -1px;
+    letter-spacing: 0.2px;
+    max-width: 540px; */
+    font-weight: 400;
 }
