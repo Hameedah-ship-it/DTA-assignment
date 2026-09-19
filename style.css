@@ -288,9 +288,6 @@ h2{
     color: #172b46;
 }
 
-
-/* CARDS */
-
 .statistics {
     width: 43%;
     margin-top: 90px;
@@ -329,4 +326,43 @@ h2{
 
 .light-green {
     background-color: #20c45a;
+}
+.register {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.register-label {
+    /* display: inline-block; */
+       /* display: block; */
+    width: fit-content;
+    margin: 0 auto 35px;
+    padding: 9px 18px;
+    border: 1px solid #b8f0cc;
+    border-radius: 25px;
+    color: #07852b;
+    font-size: 26px;
+    /* margin-bottom: 35px; */
+    /* text-align: center;
+    justify-content: center; */
+}
+
+.register h2 {
+    font-size: 30%;
+    color:#1F2937;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.secure{
+    color: #07852b;
+}
+
+.Follow {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #566e96;
+    text-align: center;
+    margin-top: 50px;
 }
